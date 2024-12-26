@@ -44,3 +44,14 @@
             gid("btnLeft").addEventListener("click", moveLeft);
         }
     </script>
+</head>
+<body>
+    <h1>DIV Move Control</h1>
+    <hr>
+    <!-- button#btnLeft 하면 id, .을 가운데 하면 클래스가 자동완성 된다! -->
+    <button id = "btnLeft">Left</button>
+    <button id = "btnRight">Right</button>
+    <hr>
+    <div>Javascript</div>
+</body>
+</html>
