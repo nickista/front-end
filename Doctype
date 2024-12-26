@@ -31,3 +31,16 @@
             divLeft += 50;
             div.style.left = divLeft + "px";
         }
+ function moveLeft() {
+            let div = document.querySelector("div");
+            divLeft -= 50;
+            div.style.left = divLeft + "px";
+        }
+        function gid(id) {
+            return document.getElementById(id);
+        }
+        window.onload = function() {
+            gid("btnRight").addEventListener("click", moveRight);
+            gid("btnLeft").addEventListener("click", moveLeft);
+        }
+    </script>
